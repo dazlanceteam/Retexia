@@ -1,5 +1,5 @@
 export const submitWebLead = async (data: any) => {
-    const URL = 'https://n8n.isurulakshan.dev/webhookweb';
+    const URL = 'https://n8n.isurulakshan.dev/webhook/web';
     return fetch(URL, {
         method: 'POST',
         headers: {
@@ -10,7 +10,7 @@ export const submitWebLead = async (data: any) => {
 };
 
 export const submitMobileLead = async (data: any) => {
-    const URL = 'https://n8n.isurulakshan.dev/webhookMobile';
+    const URL = 'https://n8n.isurulakshan.dev/webhook/Mobile';
     return fetch(URL, {
         method: 'POST',
         headers: {
@@ -21,7 +21,7 @@ export const submitMobileLead = async (data: any) => {
 };
 
 export const submitDesignLead = async (data: any) => {
-    const URL = 'https://n8n.isurulakshan.dev/webhookDesign';
+    const URL = 'https://n8n.isurulakshan.dev/webhook/Design';
     return fetch(URL, {
         method: 'POST',
         headers: {
